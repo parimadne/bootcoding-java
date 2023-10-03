@@ -7,8 +7,12 @@ public class Array11 {
         for (int j : a) {
             System.out.print(j + " ");
         }
-        System.out.println("");
+        System.out.println(" ");
         System.out.println(array(a));
+        for (int i : b) {
+            System.out.print(i + " ");
+        }
+        System.out.println("");
         System.out.println(array(b));
     }
 
